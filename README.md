@@ -19,7 +19,7 @@ Utilizados para armazenar números, que podem ser exatos ou aproximados.
 - BIGINT:	Para armazenar números inteiros muito grandes.
 - TINYINT:	Para armazenar números inteiros muito pequenos, geralmente na faixa de 0 a 255.
 - BIT ou BOOLEAN:	Para armazenar valores booleanos, que podem ser TRUE, FALSE ou NULL. Em alguns sistemas, é representado por 1 e 0.
-- DECIMAL(p, s) ou NUMERIC(p, s):	Para armazenar números com uma precisão e escala fixas. O p representa o número total de dígitos e o s o número de dígitos após a vírgula decimal. Ideal para valores monetários.
+- DECIMAL(p, s) ou NUMERICO(p, s):	Para armazenar números com uma precisão e escala fixas. O p representa o número total de dígitos e o s o número de dígitos após a vírgula decimal. Ideal para valores monetários.
 - MONEY e SMALLMONEY:	Tipos de dados específicos para valores monetários, com precisão fixa.
 
 -Números aproximados
@@ -94,6 +94,9 @@ O mesmo vale para as Categorias. Essa regra impede que você crie duas categoria
 - PostgreSQL: https://www.postgresql.org/docs/current/datatype.html
 - MySQL: https://dev.mysql.com/doc/refman/8.0/en/data-types.html
 - SQL Server: https://docs.microsoft.com/pt-br/sql/t-sql/data-types/data-types-transact-sql
-
+- Dio: https://www.dio.me/articles/tipos-de-dados-sql
+- Wikipedia: https://en.wikipedia.org/wiki/Entity_integrity#:~:text=A%20integridade%20da%20entidade%20se,estendida%2C%20a%20PK%20ser%C3%A1%20redundante.
+- Sciencedirect: https://www.sciencedirect.com/topics/computer-science/referential-integrity#:~:text=Integridade%20referencial%20%C3%A9%20definida%20como,com%20base%20em%20colunas%20especificadas.
+- IBM: https://www.ibm.com/docs/pt-br/i/7.6.0?topic=table-referential-integrity-tables
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
